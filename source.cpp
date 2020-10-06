@@ -8,13 +8,13 @@ void hello()
 int tru(int a, int b)
 {
 	int tong =0;
-	tong = a+b;
+	tong = a-b;
 	return tong;
 }
 int cong(int a, int b)
 {
 	int tong =0;
-	tong = a-b;
+	tong = a+b;
 	return tong;
 }
 int nhan(int a, int b)
