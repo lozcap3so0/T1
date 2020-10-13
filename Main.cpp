@@ -9,7 +9,7 @@ Version 3.1.0. Luyen tap phep tru. Random 2 so nguyen tu 0 den 100. Hoi hieu 2 s
 
 #include "Header.h"
 
-int main()
+void main()
 {
 	int a, b;
 
@@ -42,25 +42,15 @@ int main()
 	float bankinh;
 
 
-
-
-
-
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-	/*cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
-	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);*/
-	return 0;
-=======
-=======
 	cout << "Chu vi hinh vuong la: " << CVHinhVuong(dai,rong);
 	cout << "Dien tich hinh vuong: " << DTHinhVuong(dai,rong);
->>>>>>> e13630de4a56826668c0a4df144d276eb4ea1c13
+
 	cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
 	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);
+	
 	cout << "Chu vi hinh tron la: " << CVHinhTron(bankinh);
 	cout << "Dien tich hinh tron la: " << DTHinhTron(bankinh);
->>>>>>> e990047e4ab524bd390bd96203000a22859d6172
+	
+		system("pause");
+			return 0;
 }
