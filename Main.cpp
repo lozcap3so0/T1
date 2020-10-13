@@ -15,6 +15,8 @@ int main()
 	float dai;
 	float rong;
 	float bankinh;
+	cout <<"nhap bankinh=";
+	cin >>bankinh;
 
 
 
