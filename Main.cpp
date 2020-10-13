@@ -11,7 +11,24 @@ Version 3.1.0. Luyen tap phep tru. Random 2 so nguyen tu 0 den 100. Hoi hieu 2 s
 
 int main()
 {
-	int a, b, c;
+	int a, b;
+	
+	int tong = 0;
+	cout << "nhap a";
+	cin >> a;
+	cout << "nhap b";
+	cin >> b;
+	tong = a + b;
+	cout << "Tong = " << tong;
+	int hieu = 0;
+	hieu = a - b;
+	cout << "hieu = " << hieu;
+	int tich = 1;
+	tich = a * b;
+	cout << "tich = " << tich;
+	int thuong = 1;
+	thuong = a / b;
+	cout << "thuong = " << thuong;
 
 	
 
@@ -21,6 +38,7 @@ int main()
 
 
 
-	cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
-	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);
+	/*cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
+	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);*/
+	return 0;
 }
