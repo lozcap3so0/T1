@@ -40,6 +40,8 @@ void main()
 	cout << "Nhap chieu rong: ";
 	cin >>rong;
 	float bankinh;
+	cout <<"nhap bankinh=";
+	cin >>bankinh;
 
 
 	cout << "Chu vi hinh vuong la: " << CVHinhVuong(dai,rong);
