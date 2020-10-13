@@ -11,8 +11,9 @@ Version 3.1.0. Luyen tap phep tru. Random 2 so nguyen tu 0 den 100. Hoi hieu 2 s
 
 int main()
 {
-	int a, b, c;
-
+	int a, b;
+	float dai;
+	float rong;
 	
 
 
