@@ -7,3 +7,5 @@ float CVHinhChuNhat(float dai, float rong);
 float DTHinhChuNhat(float dai, float rong);
 float CVHinhTron(float bankinh);
 float DTHinhTron(float bankinh);
+int randomCong();
+int randomTru();
