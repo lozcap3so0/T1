@@ -1,13 +1,14 @@
+
 #include "Header.h"
 
 
 float CVHinhVuong(float dai, float rong)
 {
-
+	return (dai+rong)*2;
 }
 float DTHinhVuong(float dai, float rong)
 {
-
+	return (dai*rong);
 }
 float CVHinhChuNhat(float dai, float rong)
 {
