@@ -30,7 +30,8 @@ int randomCong ()
 {
 	int a = rand() % 101;
 	int b = rand() % 101;
-	
+	cout << "\na= " << a;
+	cout << "\nb= " << b;
 	return a+b;
 	
 	
@@ -39,6 +40,7 @@ int randomTru ()
 {
 	int a = rand() % 101;
 	int b = rand() % 101;
-	
+	cout << "\na= " << a;
+	cout << "\nb= " << b;
 	return a-b;
 }
