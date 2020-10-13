@@ -14,15 +14,12 @@ int main()
 	int a, b;
 	float dai;
 	float rong;
-<<<<<<< HEAD
 	cout<< "Nhap chieu dai: ";
 	cin >>dai;
 	cout << "Nhap chieu rong: ";
 	cin >>rong;
-=======
 	float bankinh;
 
->>>>>>> e990047e4ab524bd390bd96203000a22859d6172
 
 
 
