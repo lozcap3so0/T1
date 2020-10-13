@@ -17,11 +17,11 @@ float DTHinhChuNhat(float dai, float rong)
 {
 	return dai * rong;
 }
-float CVHinhTron(float dai, float rong)
+float CVHinhTron(float bankinh)
 {
-
+	return 2*3.14*bankinh;
 }
-float DTHinhTron(float dai, float rong)
+float DTHinhTron(float bankinh)
 {
-
+	return 3.14*bankinh*bankinh;
 }

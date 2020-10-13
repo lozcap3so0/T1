@@ -14,10 +14,15 @@ int main()
 	int a, b;
 	float dai;
 	float rong;
+<<<<<<< HEAD
 	cout<< "Nhap chieu dai: ";
 	cin >>dai;
 	cout << "Nhap chieu rong: ";
 	cin >>rong;
+=======
+	float bankinh;
+
+>>>>>>> e990047e4ab524bd390bd96203000a22859d6172
 
 
 
@@ -28,4 +33,6 @@ int main()
 	cout << "Dien tich hinh vuong: " << DTHinhVuong(dai,rong);
 	cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
 	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);
+	cout << "Chu vi hinh tron la: " << CVHinhTron(bankinh);
+	cout << "Dien tich hinh tron la: " << DTHinhTron(bankinh);
 }
