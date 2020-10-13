@@ -14,7 +14,7 @@ int main()
 	int a, b;
 	float dai;
 	float rong;
-	
+	float bankinh;
 
 
 
@@ -24,4 +24,6 @@ int main()
 
 	cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
 	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);
+	cout << "Chu vi hinh tron la: " << CVHinhTron(bankinh);
+	cout << "Dien tich hinh tron la: " << DTHinhTron(bankinh);
 }
