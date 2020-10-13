@@ -14,14 +14,18 @@ int main()
 	int a, b;
 	float dai;
 	float rong;
-	
+	cout<< "Nhap chieu dai: ";
+	cin >>dai;
+	cout << "Nhap chieu rong: ";
+	cin >>rong;
 
 
 
 
 
 
-
+	cout << "Chu vi hinh vuong la: " << CVHinhVuong(dai,rong);
+	cout << "Dien tich hinh vuong: " << DTHinhVuong(dai,rong);
 	cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
 	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);
 }
