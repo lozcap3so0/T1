@@ -13,5 +13,14 @@ int main()
 {
 	int a, b, c;
 
+	
 
+
+
+
+
+
+
+	cout << "Chu vi hinh chu nhat la: " << CVHinhChuNhat(dai, rong);
+	cout << "Dien tich hinh chu nhat la: " << DTHinhChuNhat(dai, rong);
 }
