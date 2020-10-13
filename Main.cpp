@@ -8,7 +8,7 @@ Version 3.1.0. Luyen tap phep tru. Random 2 so nguyen tu 0 den 100. Hoi hieu 2 s
 */
 
 #include "Header.h"
-
+#include <cstdlib> 
 void main()
 {
 	int a, b;
@@ -50,6 +50,10 @@ void main()
 	
 	cout << "Chu vi hinh tron la: " << CVHinhTron(bankinh);
 	cout << "Dien tich hinh tron la: " << DTHinhTron(bankinh);
+	
+	cout <<"Tong random 2 so nguyen: "<<randomCong();
+	cout <<"Hieu random 2 so nguyen: "<<randomTru();
+	
 	
 		system("pause");
 			return 0;

@@ -26,3 +26,19 @@ float DTHinhTron(float bankinh)
 {
 	return 3.14*bankinh*bankinh;
 }
+int randomCong ()
+{
+	int a = rand() % 101;
+	int b = rand() % 101;
+	
+	return a+b;
+	
+	
+}
+int randomTru ()
+{
+	int a = rand() % 101;
+	int b = rand() % 101;
+	
+	return a-b;
+}
