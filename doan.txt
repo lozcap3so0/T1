@@ -1,0 +1,41 @@
+Giới thiệu về Spring MVC 
+1.1 Khái niệm: 
+Spring MVC là một request-based framework. Họ định nghĩa các phương pháp  chung cho tất các các response phải được giải quyết bằng một request-based framework. Spring MVC giúp cho việc xây dựng ứng dụng web một cách chặt chẽ và linh động. Mẫu thiết kế Model-View-Controller giúp phân chia rạch ròi 3 công việc business logic, presentation logic, và navigation logic. Models chịu trách nhiệm đóng gói dữ liệu của ứng dụng. Views có nhiệm vụ hiển thị thông tin cung  cấp bởi đối tượng Model trả về cho người dùng. Controllers chịu trách nhiệm nhận request từ người dùng và gọi các dịch vụ bên dưới để xử lý. 
+1.2 Mục đích: 
+Mục đích của họ đơn giản là dễ dàng hơn cho developer viết các bổ sung và các cải tiến của riêng họ. 
+1.3 Các thành phần quan trọng nhất và chức năng của một Spring MVC framework:  
+ DispatcherServlet là một lớp đứng ra quản lý toàn bộ các hành động của framework (front  
+controller) trong suốt quá trình thực thi các lệnh thông qua HTTP request.  
+ HandlerMapping: chọn một đối tượng sẽ xử lý các request dựa trên các thuộc tính và điều kiện  
+của các request đó.  
+ HandlerAdapter: thực thi các handler đã được chọn.  
+ Controller: đứng giữa Model và View để quản lý các request được gửi tới và chuyển các  
+response chính xác.  
+ View: chịu trách nhiệm trả các respone cho client.  
+ ViewResolver: chọn phương pháp view dựa trên các logical name có sẵn của View.  
+ HandlerInterceptor: ngăn chặn (lọc) các request từ user. Nó được coi như Servlet filter (ko bắt  
+buộc và ko bị quản lý bởi DispatcherServlet).  
+ LocaleResolver: xử lý và lưu một phần các thông tin của user.  
+ MultipartResolver: làm cho việc upload file dễ dàng hơn bằng cách gói các request lại. 
+Nguyên lý hoạt động 
+Bước 1: Yêu cầu đầu tiên sẽ được DispatcherServlet nhận. 
+Bước 2: DispatcherServlet sẽ được HandlerMapping ánh xạ yêu cầu của client đến Controller phù hợp. 
+Bước 3: Sau khi thực hiện tiến trình từ yêu cầu của client, nó thực thi các logic được xác định trong controller và cuối cùng trả về đối tượng ModelAndView. quay lại DispatcherServlet. 
+Bước 4: Bây giờ DispatcherServlet gửi Model object  đến ViewResolver để có được trang xem thực tế. 
+Bước 5: Cuối cùng DispatcherServlet sẽ truyền đối tượng Model đến trang View để hiển thị kết quả. 
+Môi trường phát triển (IDE) 
+Thiết lập môi trường phát triển 
+JDK 7+ là nền tảng bắt buộc cho phát triển và chạy ứng dụng Java 
+Eclipse for JavaEE developer là một DE được sử dụng phổ biến nhất ở các doanh nghiệp sản xuất phần mềm để phát triển ứng dụng web và Java 
+Tomcat 8x là web sever được sử dụng để triển khai ứng dụng web 
+SQL sever 2008+ là hệ quản trị cơ sở dử liệu quan hệ được sử dụng để lưu trử và quản lý dữ liệu 
+Thiết lập môi trường 
+Download JDK và cài đặt 
+http://download.oracle.com/otn-pub/java/jdk/8u112b15/jdk-8u112-windows-x64.exe 
+Download SQA Sever Express và cài đặt 
+http://download.microsoft.com/download/8/d/d/8dd7dbda-cef7-4d8e-8c16d9f69527f909/enu/x64/SQlmanegementstudio_x64_enu.exe 
+Download Eclipse và giải nén vào thư mục thích hợp 
+http://www.eclipse.org/downloads/download.php?file=/technology/ebb/downloads/release/mars/r/eclipsejee-mars-r-win32-x86_64.zip&miror_id=448 
+Download Tomcat và giải nén vào thư mục thích hợp 
+http://www-us.apache.org/dist/tomcat/tomcat8/v8.5.8/bin/apache-tomcat-8.5.8-windows-x64.zip 
+Cấu hình của Spring
